@@ -34,7 +34,7 @@ if ($conn->connect_error) {
         $_SESSION['email'] = $email;
         //$_SESSION['pass'] = $password;
         $_SESSION['log']=1234;
-        header("location:map.html");
+        header("location:map.php");
     }
     else
             echo " NOT LOGGED IN!";
